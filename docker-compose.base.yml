@@ -1,0 +1,7 @@
+version: "3.4"
+services:
+  centos7pylxmlbase:
+    build:
+      context: .
+      dockerfile: Dockerfile.base
+    image: aursu/pylxmlbuild:7-base
